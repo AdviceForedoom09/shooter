@@ -2,12 +2,12 @@ from pygame import *
 from random import randint
 from time import time as timer 
 font.init()
-font1 = font.Font(None, 80)
+font1 = font.SysFont('Arial', 80)
 win = font1.render('YOU WIN!', True, (255, 255, 255))
 lose = font1.render('YOU LOSE!', True, (180, 0, 0))
 
 
-font2 = font.Font(None, 36)
+font2 = font.SysFont('Arial', 36)
 
 
 #фоновая музыка
